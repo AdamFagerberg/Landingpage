@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+/*300, 400, 700 */
+
 * {
     margin: 0;
     padding: 0;
@@ -7,6 +10,7 @@
 
 body {
     position: relative;
+    font-family: "Roboto", sans-serif;
 }
 
 .bg-image {
@@ -28,6 +32,8 @@ body {
     width: 100%;
     transition: all 0.5s ease-in-out;
     z-index: 1;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
 }
 
 .header-scrolled {
@@ -39,7 +45,6 @@ body {
 .logo {
     color: white;
     margin-right: 60%;
-    font-weight: bold;
 }
 
 .logo-scrolled {
@@ -57,7 +62,6 @@ body {
     text-decoration: none;
     color: white;
     cursor: pointer;
-    font-weight: bold;
     transition: color 0.5s ease-in-out;
     position: relative;
 }
@@ -72,7 +76,7 @@ body {
     left: 0;
     background-color: var(--underline-color, white);
     transform: scaleX(0);
-    transition: transform 0.3s ease;
+    transition: transform 0.5s ease;
 }
 
 .nav-link.nav-link-hovered::before {
@@ -116,13 +120,16 @@ body {
     padding: 250px;
     color: white;
     text-align: center;
-    font-weight: bold;
-    font-size: 25px;
+    font-weight: 400;
+    font-size: 2rem;
+}
 
+h1 {
+    font-weight: 700;
 }
 
 .hero p {
-    font-size: 15px;
+    font-size: 1rem;
     padding-top: 100px;
 }
 
@@ -163,16 +170,21 @@ body {
 }
 
 h2 {
-    font-size: 100px;
+    font-size: 5rem;
+    font-weight: 700;
 }
 
 h3 {
-    font-size: 40px;
-    margin-bottom: 50px;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-weight: 400;
 }
 
 .selling-text p {
-    font-size: 20px;
+    font-size: 1rem;
+    font-weight: 300;
+    text-align: flex-start;
+    word-spacing: 3px;
 }
 
 .apply-selling, .apply-selling2 {
@@ -201,6 +213,7 @@ h3 {
     font-size: 15px;
     cursor: pointer;
     margin-right: 20px;
+    font-weight: 400;
 }
 
 .apply-selling:hover {
@@ -223,7 +236,7 @@ h3 {
 
 h4 {
     margin-top: 100px;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 40px;
 }
 
@@ -231,7 +244,6 @@ h4 {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: row;
 }
 
 
@@ -250,7 +262,7 @@ h4 {
     top: 71%;
     left: 69%;
     transform: translate(-50%, -50%);
-    font-weight: bold;
+    font-weight: 500;
 }
 
 .rec-text2 {
@@ -258,7 +270,7 @@ h4 {
     top:71%;
     left: 67%;
     transform: translate(-50%, -50%);
-    font-weight: bold;
+    font-weight: 500;
 }
 
 .application {
@@ -270,11 +282,13 @@ h4 {
 }
 
 h5 {
-    font-size: 40px;
+    font-size: 2rem;
+    font-weight: 700;
 }
 
 .application p {
-    font-size: 20px;
+    font-size: 1rem;
+    font-weight: 300;
 }
 
 footer {
@@ -300,6 +314,7 @@ footer {
     font-weight: bold;
     transition: color 0.5s ease-in-out;
     font-size: 20px;
+    font-weight: 400;
 }
 
 .footer-link:hover {
@@ -326,7 +341,7 @@ footer {
 }
 
 .footer-logo {
-    font-weight: bold;
+    font-weight: 700;
     font-size: 40px;
     margin-left: 300px;
     margin-top: 50px;
